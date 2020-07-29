@@ -67,6 +67,7 @@ blockquote {
     font-style: italic;
     font-family: 'Playfair Display', serif;
     margin: 10% 20% 10% 20%;
+    padding-left: 10%;
   }
   blockquote:before {
     color: #b4a912;
@@ -101,4 +102,22 @@ ul{
 
 li{
     margin-bottom: 1.5em;
+}
+
+#img-div {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#image{
+    border-radius: 50%;
+    max-width: 30%;
+    min-width: 10%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
 }
